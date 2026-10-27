@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\DevTools\Test\Application\Commands;
+namespace Flexi\Modules\DevTools\Tests\Application\Commands;
 
-use CubaDevOps\Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
+use Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
 use PHPUnit\Framework\TestCase;
 
 class ListCommandsCommandTest extends TestCase

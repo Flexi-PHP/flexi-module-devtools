@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\DevTools\Application\Commands;
+namespace Flexi\Modules\DevTools\Application\Commands;
 
-use CubaDevOps\Flexi\Contracts\Interfaces\CliDTOInterface;
+use Flexi\Contracts\Interfaces\CliDTOInterface;
 
 class ListCommandsCommand implements CliDTOInterface
 {

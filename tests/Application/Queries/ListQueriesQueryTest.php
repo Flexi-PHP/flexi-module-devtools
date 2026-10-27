@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\DevTools\Test\Application\Queries;
+namespace Flexi\Modules\DevTools\Tests\Application\Queries;
 
-use CubaDevOps\Flexi\Modules\DevTools\Application\Queries\ListQueriesQuery;
+use Flexi\Modules\DevTools\Application\Queries\ListQueriesQuery;
 use PHPUnit\Framework\TestCase;
 
 class ListQueriesQueryTest extends TestCase

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\DevTools\Test\Application\UseCase;
+namespace Flexi\Modules\DevTools\Tests\Application\UseCase;
 
-use CubaDevOps\Flexi\Contracts\Classes\PlainTextMessage;
-use CubaDevOps\Flexi\Contracts\Interfaces\BusInterface;
-use CubaDevOps\Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
-use CubaDevOps\Flexi\Modules\DevTools\Application\UseCase\ListCommands;
+use Flexi\Contracts\Classes\PlainTextMessage;
+use Flexi\Contracts\Interfaces\BusInterface;
+use Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
+use Flexi\Modules\DevTools\Application\UseCase\ListCommands;
 use PHPUnit\Framework\TestCase;
 
 class ListCommandsTest extends TestCase
