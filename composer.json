@@ -1,5 +1,5 @@
 {
-  "name": "cubadevops/flexi-module-devtools",
+  "name": "flexi/flexi-module-devtools",
   "description": "Development tools module for Flexi Framework",
   "version": "2.0.0",
   "type": "flexi-module",
