@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace CubaDevOps\Flexi\Modules\DevTools\Application\UseCase;
 
-use CubaDevOps\Flexi\Contracts\Classes\PlainTextMessage;
-use CubaDevOps\Flexi\Contracts\Interfaces\DTOInterface;
-use CubaDevOps\Flexi\Contracts\Interfaces\HandlerInterface;
-use CubaDevOps\Flexi\Contracts\Interfaces\MessageInterface;
-use CubaDevOps\Flexi\Contracts\Interfaces\BusInterface;
+use Flexi\Contracts\Classes\PlainTextMessage;
+use Flexi\Contracts\Interfaces\DTOInterface;
+use Flexi\Contracts\Interfaces\HandlerInterface;
+use Flexi\Contracts\Interfaces\MessageInterface;
+use Flexi\Contracts\Interfaces\BusInterface;
 use CubaDevOps\Flexi\Modules\DevTools\Application\Queries\ListQueriesQuery;
 
 class ListQueries implements HandlerInterface

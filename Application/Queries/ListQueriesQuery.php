@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CubaDevOps\Flexi\Modules\DevTools\Application\Queries;
 
-use CubaDevOps\Flexi\Contracts\Interfaces\CliDTOInterface;
+use Flexi\Contracts\Interfaces\CliDTOInterface;
 
 class ListQueriesQuery implements CliDTOInterface
 {
