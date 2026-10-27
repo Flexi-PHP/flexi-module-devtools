@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\DevTools\Application\UseCase;
+namespace Flexi\Modules\DevTools\Application\UseCase;
 
 use Flexi\Contracts\Classes\PlainTextMessage;
 use Flexi\Contracts\Interfaces\DTOInterface;
 use Flexi\Contracts\Interfaces\HandlerInterface;
 use Flexi\Contracts\Interfaces\MessageInterface;
 use Flexi\Contracts\Interfaces\BusInterface;
-use CubaDevOps\Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
+use Flexi\Modules\DevTools\Application\Commands\ListCommandsCommand;
 
 class ListCommands implements HandlerInterface
 {
